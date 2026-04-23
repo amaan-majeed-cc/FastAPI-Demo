@@ -1,2 +1,24 @@
+[project]
+name = "fastapi-test"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-mock",
+    "pytest-timeout",
+    "pytest-env",
+    "pytest-randomly",
+    "pytest-xdist",
+]
+
 [tool.fastapi]
 entrypoint = "main:app"
