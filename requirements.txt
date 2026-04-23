@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+pytest-timeout
+pytest-env
+pytest-randomly
+pytest-xdist
